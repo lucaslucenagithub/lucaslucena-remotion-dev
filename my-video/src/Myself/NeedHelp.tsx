@@ -7,10 +7,10 @@ export const NeedHelp = () => {
 
     return (
         <div style={{display: 'flex',flexDirection: 'column', alignItems: 'center', alignContent: 'center', textAlign: 'center', justifyContent: 'center', width: '100%'}}>
-            <h2 style={{textAlign: 'center'}}>Precisa de ajuda?</h2>
+            <h2 style={{textAlign: 'center'}}>Need Help?</h2>
             <div style={{display: 'flex'}}>  
             <FontAwesomeIcon icon={faContactCard} style={{marginRight: 30}}/> 
-             <span>11 9 4626-3622</span>
+             <span>+55 11 9 4626-3622</span>
              </div>
            
         </div>

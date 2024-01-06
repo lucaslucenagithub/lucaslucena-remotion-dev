@@ -63,7 +63,7 @@ export const Myself = () => {
 							height: '100%',
 							width: '63%',
 							padding: 100
-						}}>Faça um vídeo do seu negócio com o remotion dev e automatize a criação de conteúdo da sua empresa.</h4>
+						}}>Make a video of your business with remotion dev and automate your company's content creation.</h4>
 				</TransitionSeries.Sequence>
 				<TransitionSeries.Transition
 					presentation={slide()}
