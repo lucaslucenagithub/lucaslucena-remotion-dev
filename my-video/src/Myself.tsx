@@ -1,4 +1,4 @@
-import { AbsoluteFill, Img, Sequence, useVideoConfig } from "remotion";
+import { AbsoluteFill, Img, Sequence, useVideoConfig, Audio, staticFile } from "remotion";
 import { linearTiming, TransitionSeries } from "@remotion/transitions";
 import { slide } from "@remotion/transitions/slide";
 import { AvatarPic } from "./Myself/AvatarPic";
@@ -73,7 +73,10 @@ export const Myself = () => {
 					<NeedHelp />					
 				</TransitionSeries.Sequence>
 			</TransitionSeries>
-
+			<Sequence from={30}>
+			<Audio src={staticFile('happy-clappy-ukulele(chosic.com).mp3')} placeholder={''}/>
+			</Sequence>
 		</AbsoluteFill>
+		
 	);
 };
